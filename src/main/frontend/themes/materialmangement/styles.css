@@ -1,0 +1,13 @@
+@import url('./views/feed-view.css');
+@import url('./views/map-view.css');
+@import url('./views/dashboard-view.css');
+@import url('./views/collaborative-master-detail-view.css');    html {
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+
+    }
+
+    [theme~="dark"] {
+
+    }
